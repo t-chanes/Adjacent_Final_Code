@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.Controller8x8">
+   <children>
+      <Rectangle fx:id="s16" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="702.0" layoutY="181.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s11" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="223.0" layoutY="181.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s12" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="323.0" layoutY="181.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s13" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="421.0" layoutY="181.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s15" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="607.0" layoutY="181.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s10" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="126.0" layoutY="181.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s14" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="514.0" layoutY="179.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s9" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="31.0" layoutY="179.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Label layoutX="275.0" text="Adjacent" textFill="RED">
+         <font>
+            <Font name="Cambria Math" size="70.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="s17" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="30.0" layoutY="265.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s22" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="513.0" layoutY="265.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s18" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="125.0" layoutY="267.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s23" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="606.0" layoutY="267.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s21" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="420.0" layoutY="267.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s20" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="322.0" layoutY="267.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s19" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="222.0" layoutY="267.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s24" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="701.0" layoutY="267.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s25" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="29.0" layoutY="350.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s30" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="512.0" layoutY="350.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s26" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="124.0" layoutY="352.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s31" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="605.0" layoutY="352.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s29" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="419.0" layoutY="352.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s28" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="321.0" layoutY="352.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s27" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="221.0" layoutY="352.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s32" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="700.0" layoutY="352.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s33" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="30.0" layoutY="438.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s38" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="513.0" layoutY="438.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s34" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="125.0" layoutY="440.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s39" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="606.0" layoutY="440.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s37" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="420.0" layoutY="440.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s36" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="322.0" layoutY="440.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s35" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="222.0" layoutY="440.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s40" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="701.0" layoutY="440.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s41" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="30.0" layoutY="523.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s46" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="513.0" layoutY="523.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s42" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="125.0" layoutY="525.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s47" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="606.0" layoutY="525.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s45" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="420.0" layoutY="525.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s44" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="322.0" layoutY="525.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s43" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="222.0" layoutY="525.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s48" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="701.0" layoutY="525.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s49" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="28.0" layoutY="608.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s54" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="511.0" layoutY="608.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s50" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="123.0" layoutY="610.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s55" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="604.0" layoutY="610.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s53" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="418.0" layoutY="610.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s52" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="320.0" layoutY="610.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s51" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="220.0" layoutY="610.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s56" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="699.0" layoutY="610.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s57" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="30.0" layoutY="694.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s62" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="513.0" layoutY="694.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s58" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="125.0" layoutY="696.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s63" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="606.0" layoutY="696.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s61" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="420.0" layoutY="696.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s60" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="322.0" layoutY="696.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s59" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="222.0" layoutY="696.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s64" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="701.0" layoutY="696.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="30.0" layoutY="94.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s6" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="513.0" layoutY="94.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="125.0" layoutY="96.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s7" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="606.0" layoutY="96.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s5" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="420.0" layoutY="96.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="322.0" layoutY="96.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="222.0" layoutY="96.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s8" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="701.0" layoutY="96.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Button fx:id="clearButton" layoutX="103.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#clear" text="Clear">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="returnHome" layoutX="617.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#home" text="Return Home">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>

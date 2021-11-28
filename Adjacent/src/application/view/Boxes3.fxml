@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="563.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.Controller3x3">
+   <children>
+      <Rectangle fx:id="s1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="165.0" layoutY="170.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="259.0" layoutY="170.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="352.0" layoutY="170.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="165.0" layoutY="260.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s5" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="259.0" layoutY="260.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s6" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="352.0" layoutY="260.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s7" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="165.0" layoutY="349.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s8" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="258.0" layoutY="349.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Rectangle fx:id="s9" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="352.0" layoutY="349.0" onMouseClicked="#adjacent" stroke="BLACK" strokeType="INSIDE" width="84.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Rectangle>
+      <Label layoutX="168.0" layoutY="21.0" text="Adjacent" textFill="RED">
+         <font>
+            <Font name="Cambria Math" size="70.0" />
+         </font>
+      </Label>
+      <Button fx:id="clearButton" layoutX="165.0" layoutY="446.0" mnemonicParsing="false" onMouseClicked="#clear" text="Clear">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="returnHome" layoutX="268.0" layoutY="446.0" mnemonicParsing="false" onMouseClicked="#home" text="Return Home">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>

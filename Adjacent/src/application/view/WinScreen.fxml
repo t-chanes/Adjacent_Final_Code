@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="563.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.WinScreen">
+   <children>
+      <Label alignment="CENTER" layoutX="118.0" layoutY="91.0" prefHeight="94.0" prefWidth="365.0" text="CONGRATULATIONS" textFill="RED">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="rewardButton" layoutX="236.0" layoutY="251.0" mnemonicParsing="false" onMouseClicked="#rewardLink" text="Click for reward!" />
+   </children>
+</AnchorPane>
