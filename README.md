@@ -3,6 +3,7 @@ Group #1
 Tyler Chanes, Edison Felan, Justin Lee, Michael Cornelius
 
 Final code for the adjacent game
+This is a game where the objective is to turn all of the blocks black. By clicking on a white block the surrounding blocks turn black.
 
 **Before using this code please ensure that you have the proper java version installed (jdk 1.8), JavaFX installed, and Scenebuilder installed properly**
 Everything in this game works properly and as intended.
