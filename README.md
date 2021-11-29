@@ -1,4 +1,7 @@
-# Adjacent_Final_Code
+**Adjacent**
+Group #1
+Tyler Chanes, Edison Felan, Justin Lee, Michael Cornelius
+
 Final code for the adjacent game
 
 **Before using this code please ensure that you have the proper java version installed (jdk 1.8), JavaFX installed, and Scenebuilder installed properly**
